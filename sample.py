@@ -12,7 +12,7 @@ try:
     rumble_data = rumble_response.json()  # Convert the rumble_response to JSON
 
     # This is the breakdown of how to get to watching now
-	# You can examine the details of the API JSON here https://codebeautify.org/jsonviewer
+    # You can examine the details of the API JSON here https://codebeautify.org/jsonviewer
     watching_now = rumble_data["livestreams"][0]["watching_now"]
     
     # Writing the file for OBS to read
