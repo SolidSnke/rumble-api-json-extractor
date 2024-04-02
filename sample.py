@@ -20,7 +20,7 @@ try:
     f.write(str(watching_now))
     f.close()
 	
-	# Some output for sanity and debug
+    # Some output for sanity and debug
     print(watching_now, " - Data stored successfully!")
 except:
     exit()
